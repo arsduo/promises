@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gem_template/version'
+require 'promises/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "gem_template"
-  gem.version       = GemTemplate::VERSION
+  gem.name          = "promises"
+  gem.version       = Promises::VERSION
   gem.authors       = ["Alex Koppel"]
   gem.email         = ["alex+git@alexkoppel.com"]
   gem.description   = %q{TODO: Write a gem description}
